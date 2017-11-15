@@ -18,7 +18,15 @@ footer p {
 .picturepanel {
 	padding-left: 0px;
 	padding-right: 0px;
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
 }
+
+.picturepanel:hover {
+      opacity: 0.5;
+      }
 
 .album {
 	margin-top: 3rem;	

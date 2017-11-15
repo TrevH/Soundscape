@@ -1,18 +1,10 @@
 body {
-  min-height: 75rem; /* Can be removed; just added for demo purposes */
+ 
 }
 
 .navbar {
   margin-bottom: 0;
 }
-
-.album {
-  min-height: 50rem; /* Can be removed; just added for demo purposes */
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: #f7f7f7;
-}
-
 
 footer {
   padding-top: 3rem;
@@ -24,5 +16,10 @@ footer p {
 }
 
 .picturepanel {
-	margin-bottom: 3rem;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.album {
+	margin-top: 3rem;	
 }

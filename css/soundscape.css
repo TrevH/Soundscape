@@ -1,3 +1,5 @@
+
+
 body {
  
 }
@@ -32,29 +34,45 @@ footer p {
 	margin-top: 3rem;	
 }
 
+.navbar{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
 .abstract{
 	padding-top: 1em;
+	font-family: 'Barlow Condensed', sans-serif;
 }
+
 .abstract_content{
 	padding-top: 0em;
 	font-size: 0.857em;
-	padding-right: 1em;
+	padding-right: 2em;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	border-right: 1px solid #666;
 
 
 }
-.explainatory_content_center1{
+.mid_content{
 	padding-top: 5em;
 	padding-left: 3em;
 	padding-right: 3em;
 	font-size: 0.857em;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	
 }
 
-.explainatory_content_center{
-	padding-left: 3em;
+.right_border_mid_content{
+	border-right: 1px solid #666;
 	padding-right: 3em;
-	font-size: 0.857em;
 }
+
+
 
 .figure1{
 	padding-top: 4em;
+}
+.figure-caption{
+	font-size: 0.857em;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+
 }

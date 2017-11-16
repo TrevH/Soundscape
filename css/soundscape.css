@@ -31,3 +31,30 @@ footer p {
 .album {
 	margin-top: 3rem;	
 }
+
+.abstract{
+	padding-top: 1em;
+}
+.abstract_content{
+	padding-top: 0em;
+	font-size: 0.857em;
+	padding-right: 1em;
+
+
+}
+.explainatory_content_center1{
+	padding-top: 5em;
+	padding-left: 3em;
+	padding-right: 3em;
+	font-size: 0.857em;
+}
+
+.explainatory_content_center{
+	padding-left: 3em;
+	padding-right: 3em;
+	font-size: 0.857em;
+}
+
+.figure1{
+	padding-top: 4em;
+}

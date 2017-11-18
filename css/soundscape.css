@@ -1,7 +1,5 @@
-
-
 body {
- 
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 
 .navbar {
@@ -25,6 +23,7 @@ footer p {
 	-moz-transition: opacity .25s ease-in-out;
 	-webkit-transition: opacity .25s ease-in-out;
 }
+
 
 .picturepanel:hover .overlay {
       opacity: 1;
@@ -56,44 +55,41 @@ footer p {
 	margin-top: 3rem;	
 }
 
-.navbar{
+.navbar {
 	font-family: 'Barlow Condensed', sans-serif;
 }
 
-.abstract{
+.abstract {
 	padding-top: 1em;
 	font-family: 'Barlow Condensed', sans-serif;
 }
 
-.abstract_content{
+.abstract_content {
 	padding-top: 0em;
 	font-size: 0.857em;
 	padding-right: 2em;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-	border-right: 1px solid #666;
-
-
 }
-.mid_content{
+
+.mid_content {
 	padding-top: 5em;
 	padding-left: 3em;
 	padding-right: 3em;
 	font-size: 0.857em;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-	
 }
 
-.right_border_mid_content{
-	border-right: 1px solid #666;
+.right_border_mid_content {
 	padding-right: 3em;
 }
 
-.right_content{
+.right_content {
 	padding-top: 4em;
-}
-
-.figure-caption{
 	font-size: 0.857em;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 
 }
+
+
+.dropdown-item:hover {
+	background-color: #343A40 ;
+	color: white;
+}
+

@@ -1,5 +1,5 @@
 body {
-
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 
 .navbar {
@@ -45,7 +45,6 @@ footer p {
 	padding-top: 0em;
 	font-size: 0.857em;
 	padding-right: 2em;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 
 .mid_content {
@@ -53,7 +52,6 @@ footer p {
 	padding-left: 3em;
 	padding-right: 3em;
 	font-size: 0.857em;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 
 .right_border_mid_content {
@@ -62,11 +60,10 @@ footer p {
 
 .right_content {
 	padding-top: 4em;
+	font-size: 0.857em;
+
 }
 
-.figure {
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-}
 
 .dropdown-item:hover {
 	background-color: #343A40 ;

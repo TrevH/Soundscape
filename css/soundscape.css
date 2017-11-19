@@ -108,3 +108,51 @@ footer p
 	color: white;
 }
 
+@media (min-width: 768px)
+{
+  #report-right 
+  {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    overflow-y: scroll; 
+  }
+  
+  #report-left 
+  {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+    width: 25%;
+  }
+}
+
+#report-right 
+{
+  height: 80%;
+}
+
+#report-left 
+{
+  height: 80%;
+}
+
+#report-right p
+{
+	font-size: 0.7em;
+}
+
+figcaption
+{
+	font-size: 0.7em;
+}
+
+.hanging-indent p
+{
+	padding-left: 20px;
+	text-indent: -20px;
+}

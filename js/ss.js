@@ -1,5 +1,17 @@
 $(document).ready(function()
 {    
+	var pageselected = localStorage.getItem('selectedPage');
+	console.log(pageselected);
+
+	if(pageselected===null)
+	{
+		$('#content-section-block').load("project_overview.html");
+	}
+	else
+	{
+		$('#content-section-block').load(pageselected + '.html');
+	}
+
 	$('.page2-menu-options').on('click', function(e)
 	{
         e.preventDefault();

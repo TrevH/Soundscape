@@ -3,6 +3,11 @@ body
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
 
+h1
+{
+	font-weight: 100;
+}
+
 .navbar 
 {
   margin-bottom: 0;

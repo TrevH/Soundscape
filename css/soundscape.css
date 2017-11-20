@@ -1,6 +1,12 @@
 body 
 {
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	height: 100%; 
+}
+
+.bg-black
+{
+	background-color: black;
 }
 
 h1
@@ -13,15 +19,9 @@ h1
   margin-bottom: 0;
 }
 
-footer 
+#site-title
 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p 
-{
-  margin-bottom: .25rem;
+	margin-top: 20%;
 }
 
 .picturepanel 
@@ -34,10 +34,9 @@ footer p
 	-webkit-transition: opacity .25s ease-in-out;
 }
 
-
 .picturepanel:hover .overlay 
 {
-    opacity: 1;
+    opacity: 0.8;
 }
   
 .overlay 

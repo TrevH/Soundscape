@@ -1,6 +1,17 @@
 body 
 {
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	height: 100%; 
+}
+
+.bg-black
+{
+	background-color: black;
+}
+
+h1
+{
+	font-weight: 100;
 }
 
 .navbar 
@@ -8,15 +19,9 @@ body
   margin-bottom: 0;
 }
 
-footer 
+#site-title
 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p 
-{
-  margin-bottom: .25rem;
+	margin-top: 20%;
 }
 
 .picturepanel 
@@ -29,10 +34,9 @@ footer p
 	-webkit-transition: opacity .25s ease-in-out;
 }
 
-
 .picturepanel:hover .overlay 
 {
-    opacity: 1;
+    opacity: 0.8;
 }
   
 .overlay 
@@ -114,3 +118,51 @@ li
 	list-style-type: none;
 } 
 
+@media (min-width: 768px)
+{
+  #report-right 
+  {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    overflow-y: scroll; 
+  }
+  
+  #report-left 
+  {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+    width: 25%;
+  }
+}
+
+#report-right 
+{
+  height: 80%;
+}
+
+#report-left 
+{
+  height: 80%;
+}
+
+#report-right p
+{
+	font-size: 0.7em;
+}
+
+figcaption
+{
+	font-size: 0.7em;
+}
+
+.hanging-indent p
+{
+	padding-left: 20px;
+	text-indent: -20px;
+}

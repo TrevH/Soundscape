@@ -22,7 +22,7 @@ $(document).ready(function()
 		// this will update localStorage with the last page clicked
 		// if a person navigates away and then clicks back it will
 		// open the last page they were on
-		localStorage.setitem("selectedPage", page);
+		localStorage.setItem("selectedPage", page);
 
 		if(page == 'report_shiva' || page == 'report_trevor')
 		{

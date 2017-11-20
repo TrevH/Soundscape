@@ -108,3 +108,9 @@ footer p
 	color: white;
 }
 
+/*added to remove bullets from report references*/
+li
+{
+	list-style-type: none;
+} 
+

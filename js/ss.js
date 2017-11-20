@@ -18,11 +18,6 @@ $(document).ready(function()
 	{
         e.preventDefault();
 		var page = $(this).attr('href');
-		
-		// this will update localStorage with the last page clicked
-		// if a person navigates away and then clicks back it will
-		// open the last page they were on
-		localStorage.setItem("selectedPage", page);
 
 		if(page == 'report_shiva' || page == 'report_trevor')
 		{
@@ -31,6 +26,10 @@ $(document).ready(function()
 		else
 		{
 			$('#content-section-block').load(page + '.html');
+			// this will update localStorage with the last page clicked
+			// if a person navigates away and then clicks back it will
+			// open the last page they were on
+			localStorage.setItem("selectedPage", page);
 		}
 		
         return false;

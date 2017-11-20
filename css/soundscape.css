@@ -112,6 +112,12 @@ h1
 	color: white;
 }
 
+/*added to remove bullets from report references*/
+li
+{
+	list-style-type: none;
+} 
+
 @media (min-width: 768px)
 {
   #report-right 

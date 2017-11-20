@@ -5,7 +5,7 @@ $(document).ready(function()
 
 	if(pageselected===null)
 	{
-		$('#content-section-block').load("project_overview.html");
+		$('#content-section-block').load("overview.html");
 	}
 	else
 	{

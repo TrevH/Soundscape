@@ -7,14 +7,6 @@ $(document).ready(function()
 	{
 		$('#content-section-block').load("overview.html");
 	}
-	else if(pageselected=='report_shiva')
-	{
-		 window.location.href = 'report_shiva.html';
-	}
-	else if(pageselected=='report_trevor')
-	{
-		window.location.href = 'report_trevor.html';
-	}
 	else
 	{
 		$('#content-section-block').load(pageselected + '.html');
@@ -26,13 +18,9 @@ $(document).ready(function()
         e.preventDefault();
 		var page = $(this).attr('href');
 
-		if(page == 'shiva_report')
+		if(page == 'report_shiva' || page == 'report_trevor')
 		{
-			window.location.href = 'report_shiva.html';
-		}
-		else if (page == 'trevor_report')
-		{
-			window.location.href = 'report_trevor.html';
+			window.location.href = page + '.html';
 		}
 		else
 		{

@@ -9,9 +9,14 @@ body
 	background-color: black;
 }
 
-h1
+h1, h4, h5
 {
 	font-weight: 100;
+}
+
+h5
+{
+	font-size: 1.2em;
 }
 
 .navbar 
@@ -84,6 +89,7 @@ h1
 	padding-top: 0em;
 	font-size: 0.857em;
 	padding-right: 2em;
+	font-weight: 100;
 }
 
 .mid_content 
@@ -165,4 +171,20 @@ figcaption
 {
 	padding-left: 20px;
 	text-indent: -20px;
+}
+
+.content-section p
+{
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+.text-small-80
+{
+	font-size: 0.8em;
+}
+
+.text-small-90
+{
+	font-size: 0.9em;
 }
